@@ -42,9 +42,6 @@ try {
 })
 }
 
-bcrypt.compare(someOtherPlaintextPassword, hash, function(err, result) {
-    // result == false
-});
 
 })
 
